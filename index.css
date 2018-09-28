@@ -1,2 +1,30 @@
 /* index.css */
 
+/* 1°declaro las variables en la raiz de nuestro sitio para poder usarlas en cualquier lado */
+:root {
+    /* el -- antes de la declaracion le indica que es una variable */
+    --blanco: #FFF;
+    --negro: #000;
+    --naranja: #F90;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    background-image: url(images/pattern.jpg)
+}
+
+.cabecera, .contenedor {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.contenedor {
+    background-color: var(--blanco);
+
+}
