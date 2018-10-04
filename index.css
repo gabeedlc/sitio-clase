@@ -35,14 +35,11 @@ body {
 
 .cabecera h1 {
     color: var(--naranja);
-    
-
 }
 
 .contenedor {
     background-color: var(--blanco);
     border-radius: 8px 8px 0 0;
-
 }
 
 .boto {
@@ -73,8 +70,7 @@ body {
 .boto-lista a:hover{
     text-shadow: 0 0 10px #eee;
     font-size: 105%;
-    color: var(--gris);
-        
+    color: var(--gris);    
 }
 
 nav .buscar {
@@ -100,8 +96,7 @@ nav .buscar {
 
 .izq {
     flex-grow: 1;
-    margin-right: 30px;
-    
+    margin-right: 30px;   
 }
 
 .izq h3 {
@@ -112,7 +107,6 @@ nav .buscar {
 .izq-lista {
     list-style-type: none;
     margin-left: 35px;
-
 }
 
 .izq-lista-link {
@@ -135,8 +129,7 @@ nav .buscar {
     width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    
+    grid-gap: 20px;   
 }
 
 .producto h3 {
@@ -196,7 +189,6 @@ nav .buscar {
 
 footer {
     margin-top: 30px;
-    
     border-top: 1px solid #aaa;
     background-color: #eee;
     height: 110px;
@@ -207,11 +199,10 @@ footer {
 }
 
 .pie-copy {
-    float: left;
     margin-right: 30px;
 }
 
-.pie-china {
+.pie-copy, .pie-china, .pie-argentina {
     float: left;
 }
 
@@ -220,18 +211,12 @@ footer {
     padding-right: 15px;
 }
 
-.pie-argentina {
-    float: left;
-}
-
 .pie-argentina p {
     padding-left: 15px;
 }
 
 .pie-creditos {
-    display: block;
-    align-items: flex-end;
+    padding-top: 75px;
     float: right;
     text-align: end;
-    margin-bottom: 5px;
 }
