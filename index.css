@@ -220,3 +220,17 @@ footer {
     float: right;
     text-align: end;
 }
+
+/* 
+-*-*-*-*-*-*-*-*-*-*-*-*-
+Sección CONTACTO
+-*-*-*-*-*-*-*-*-*-*-*-*-
+*/
+/* Este selector compuesto solo afectará a la caja .der que se encuentra en la hoja de contacto */
+.contacto .der {
+    background-color: lightcoral;
+}
+
+.contacto-form {
+    background-color: aquamarine;
+}
